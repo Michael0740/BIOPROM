@@ -3,12 +3,7 @@
 import Link from 'next/link';
 import { Mail, MapPin, Phone, ArrowUpRight } from 'lucide-react';
 
-const footerLinks = [
-  { label: 'Home', href: '/' },
-  { label: 'Serviços', href: '/servicos' },
-  { label: 'Sobre nós', href: '/sobre' },
-  { label: 'Contacto', href: '/contacto' },
-];
+
 
 export default function Footer() {
   return (
@@ -47,11 +42,8 @@ export default function Footer() {
 
         <div className="mt-8 flex flex-col gap-4 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
           <div className="flex flex-wrap gap-4 text-sm text-gray-300">
-            {footerLinks.map((link) => (
-              <Link key={link.href} href={link.href} className="transition hover:text-emerald-300">
-                {link.label}
-              </Link>
-            ))}
+           
+         
           </div>
 
           <div className="flex items-center gap-2 text-sm text-gray-300">
