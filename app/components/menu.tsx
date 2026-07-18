@@ -9,21 +9,45 @@ interface NavItem {
 }
 
 const NAV_ITEMS: NavItem[] = [
-  { label: 'Home', href: '/' },
-  { label: 'Serviços', href: '/servicos' },
-  { label: 'Sobre nós', href: '/sobre' },
-  { label: 'Contacto', href: '/contacto' },
+  { label: 'Home', href: '#home' },
+  { label: 'Quem somos', href: '#quem-somos' },
+  { label: 'Serviços', href: '#servicos' },
+  { label: 'Contacto', href: '#contacto' },
 ];
 
 export default function Menu() {
   const [isOpen, setIsOpen] = useState<boolean>(false);
 
+  const handleNavigation = (href: string) => {
+    setIsOpen(false);
+
+    if (typeof window === 'undefined' || !href.startsWith('#')) {
+      return;
+    }
+
+    const targetId = href.slice(1);
+    const target = document.getElementById(targetId);
+
+    if (target) {
+      const offset = 88;
+      const top = target.getBoundingClientRect().top + window.scrollY - offset;
+      window.scrollTo({ top, behavior: 'smooth' });
+    }
+  };
+
   return (
-    <header className="bg-gray-50 shadow-sm relative z-50">
+    <header className="fixed top-0 left-0 w-full z-[60] border-b border-gray-200/70 bg-white/90 backdrop-blur-md shadow-sm">
       <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           {/* Logótipo */}
-          <Link href="/" className="text-xl font-bold text-green-700 tracking-wide">
+          <Link
+            href="#home"
+            onClick={(event) => {
+              event.preventDefault();
+              handleNavigation('#home');
+            }}
+            className="text-xl font-bold text-green-700 tracking-wide"
+          >
             BIOPROM
           </Link>
 
@@ -34,6 +58,10 @@ export default function Menu() {
                 <li key={item.href}>
                   <Link
                     href={item.href}
+                    onClick={(event) => {
+                      event.preventDefault();
+                      handleNavigation(item.href);
+                    }}
                     className="text-gray-700 font-medium hover:text-green-700 transition-colors duration-200"
                   >
                     {item.label}
@@ -72,7 +100,7 @@ export default function Menu() {
 
       {/* Navegação mobile */}
       <nav
-        className={`md:hidden overflow-hidden transition-[max-height] duration-300 ease-in-out bg-gray-50 border-t border-gray-200 ${
+        className={`md:hidden absolute left-0 right-0 top-full overflow-hidden transition-[max-height] duration-300 ease-in-out bg-white/95 border-t border-gray-200 shadow-sm ${
           isOpen ? 'max-h-64' : 'max-h-0'
         }`}
       >
@@ -81,7 +109,10 @@ export default function Menu() {
             <li key={item.href}>
               <Link
                 href={item.href}
-                onClick={() => setIsOpen(false)}
+                onClick={(event) => {
+                  event.preventDefault();
+                  handleNavigation(item.href);
+                }}
                 className="block py-3 text-gray-700 font-medium hover:text-green-700 transition-colors duration-200 border-b border-gray-100 last:border-0"
               >
                 {item.label}
