@@ -54,7 +54,7 @@ export default function Servicos() {
   const [openId, setOpenId] = useState<number | null>(1);
 
   return (
-    <section id="servicos" className="scroll-mt-24 bg-[radial-gradient(circle_at_top,_#3d2878_0%,_#1a0f42_55%,_#0d0620_100%)] py-16 text-white md:py-24 lg:py-28">
+    <section id="servicos" className="scroll-mt-24 bg-[radial-gradient(circle_at_top,_#241847_0%,_#0f0629_55%,_#050310_100%)] py-16 text-white md:py-24 lg:py-28">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="mb-10 max-w-3xl">
           <span className="mb-3 inline-block rounded-full border border-purple-400/20 bg-purple-500/10 px-3 py-1 text-sm font-semibold uppercase tracking-[0.2em] text-purple-300">

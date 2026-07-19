@@ -2,6 +2,8 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
+import logo from '@/public/img/BIOPROM LOGO.jpg.jpeg';
+import Image from 'next/image'
 
 interface NavItem {
   label: string;
@@ -48,7 +50,7 @@ export default function Menu() {
             }}
             className="text-xl font-bold text-purple-800 tracking-wide"
           >
-            BIOPROM
+           <Image src={logo} alt='logo' width={50} height={50} className="h-12 w-auto"></Image>
           </Link>
 
           {/* Navegação desktop */}

@@ -2,16 +2,18 @@
 
 import Link from 'next/link';
 import { Mail, MapPin, Phone, ArrowUpRight } from 'lucide-react';
+import logo from '@/public/img/BIOPROM LOGO  B.png'
+import Image from 'next/image'
 
 
 
 export default function Footer() {
   return (
-    <footer className="border-t border-purple-400/20 bg-[radial-gradient(circle_at_top,_#3d2878_0%,_#1a0f42_55%,_#0d0620_100%)] py-10 text-white sm:py-12">
+    <footer className="border-t border-purple-400/20 bg-[radial-gradient(circle_at_top,_#241847_0%,_#0f0629_55%,_#050310_100%)] py-10 text-white sm:py-12">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
           <div>
-            <h2 className="text-2xl font-bold text-white">BIOPROM</h2>
+            <Image src={logo} alt='logo' width={100} height={100} className="h-20 w-auto"></Image>
             <p className="mt-3 max-w-xl text-sm leading-relaxed text-gray-300 sm:text-base">
               Soluções profissionais em higiene, desinfeção e controlo de pragas para ambientes mais seguros e acolhedores.
             </p>
@@ -46,23 +48,10 @@ export default function Footer() {
          
           </div>
 
-          <div className="flex items-center gap-2 text-sm text-gray-300">
-            <span>Feito por</span>
-            <Link
-              href="mailto:albertomichael582@gmail.com"
-              className="inline-flex items-center gap-1 font-semibold text-orange-300 transition hover:text-orange-200"
-            >
-              Alberto Michel
-              <ArrowUpRight size={14} />
-            </Link>
-          </div>
+         
         </div>
 
-        <div className="mt-4 text-center text-xs text-gray-400 sm:text-left">
-          <a href="mailto:albertomichael582@gmail.com" className="hover:text-orange-300">
-            albertomichael582@gmail.com
-          </a>
-        </div>
+       
       </div>
     </footer>
   );
