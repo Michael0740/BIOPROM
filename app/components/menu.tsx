@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Link from 'next/link';
-import logo from '@/public/img/BIOPROM LOGO.jpg.jpeg';
+import logo from '@/public/img/BIOPROM LOGO.jpg.png';
 import Image from 'next/image'
 
 interface NavItem {
