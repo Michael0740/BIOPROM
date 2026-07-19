@@ -30,7 +30,7 @@ export default function Contacto() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="rounded-[2rem] border border-gray-200 bg-white p-8 shadow-[0_20px_60px_-30px_rgba(0,0,0,0.25)] sm:p-10 lg:p-12">
           <div className="mb-8 max-w-2xl">
-            <span className="mb-3 inline-block rounded-full bg-green-100 px-3 py-1 text-sm font-semibold uppercase tracking-[0.2em] text-green-700">
+            <span className="mb-3 inline-block rounded-full bg-purple-100 px-3 py-1 text-sm font-semibold uppercase tracking-[0.2em] text-purple-800">
               Contacto
             </span>
             <h2 className="text-3xl font-bold leading-tight text-gray-900 sm:text-4xl">
@@ -48,9 +48,9 @@ export default function Contacto() {
                 href={href}
                 target={href.startsWith('http') ? '_blank' : undefined}
                 rel={href.startsWith('http') ? 'noreferrer' : undefined}
-                className="rounded-2xl border border-gray-200 bg-gray-50 p-6 transition duration-300 hover:-translate-y-1 hover:border-green-300 hover:shadow-md"
+                className="rounded-2xl border border-gray-200 bg-gray-50 p-6 transition duration-300 hover:-translate-y-1 hover:border-orange-300 hover:shadow-md"
               >
-                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-green-100 text-green-700">
+                <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-orange-100 text-orange-600">
                   <Icon size={20} strokeWidth={2.2} />
                 </div>
                 <h3 className="mb-2 text-lg font-semibold text-gray-900">{title}</h3>

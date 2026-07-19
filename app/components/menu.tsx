@@ -46,7 +46,7 @@ export default function Menu() {
               event.preventDefault();
               handleNavigation('#home');
             }}
-            className="text-xl font-bold text-green-700 tracking-wide"
+            className="text-xl font-bold text-purple-800 tracking-wide"
           >
             BIOPROM
           </Link>
@@ -62,7 +62,7 @@ export default function Menu() {
                       event.preventDefault();
                       handleNavigation(item.href);
                     }}
-                    className="text-gray-700 font-medium hover:text-green-700 transition-colors duration-200"
+                    className="text-gray-700 font-medium hover:text-orange-500 transition-colors duration-200"
                   >
                     {item.label}
                   </Link>
@@ -113,7 +113,7 @@ export default function Menu() {
                   event.preventDefault();
                   handleNavigation(item.href);
                 }}
-                className="block py-3 text-gray-700 font-medium hover:text-green-700 transition-colors duration-200 border-b border-gray-100 last:border-0"
+                className="block py-3 text-gray-700 font-medium hover:text-orange-500 transition-colors duration-200 border-b border-gray-100 last:border-0"
               >
                 {item.label}
               </Link>

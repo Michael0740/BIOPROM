@@ -59,7 +59,7 @@ export default function Section2() {
               textInView ? 'translate-y-0 opacity-100' : 'translate-y-8 opacity-0'
             }`}
           >
-            <span className="mb-3 inline-block rounded-full bg-green-100 px-3 py-1 text-sm font-semibold uppercase tracking-[0.2em] text-green-700">
+            <span className="mb-3 inline-block rounded-full bg-purple-100 px-3 py-1 text-sm font-semibold uppercase tracking-[0.2em] text-purple-800">
               Quem somos
             </span>
             <h2 className="mb-4 text-3xl font-bold leading-tight text-gray-900 sm:text-4xl">
@@ -94,7 +94,7 @@ export default function Section2() {
                       }`}
                       style={{ transitionDelay: textInView ? `${150 + index * 100}ms` : '0ms' }}
                     >
-                      <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-green-100 text-green-700">
+                      <span className="flex h-10 w-10 flex-shrink-0 items-center justify-center rounded-full bg-orange-100 text-orange-600">
                         <Icon size={18} strokeWidth={2.25} />
                       </span>
                       <span className="pt-2 text-sm leading-relaxed text-gray-700 sm:text-base">
@@ -114,7 +114,7 @@ export default function Section2() {
             }`}
           >
             <div className="group relative">
-              <div className="absolute -inset-3 rounded-[1.75rem] bg-green-600/10 rotate-2 transition-transform duration-500 group-hover:rotate-3" />
+              <div className="absolute -inset-3 rounded-[1.75rem] bg-purple-600/10 rotate-2 transition-transform duration-500 group-hover:rotate-3" />
               <div className="absolute inset-0 rounded-[1.5rem] border border-white/40" />
               <Image
                 src={desinfect}

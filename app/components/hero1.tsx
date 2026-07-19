@@ -86,7 +86,7 @@ export default function HeroCarousel() {
           <div className="relative z-20 h-full flex items-end px-6 sm:px-12 lg:px-24 py-12 sm:py-16 lg:py-20">
             {index === activeIndex && (
               <div key={activeIndex} className="max-w-2xl rounded-2xl border border-white/20 bg-black/35 p-6 shadow-2xl backdrop-blur-sm sm:p-8 space-y-4">
-                <span className="inline-block text-green-400 font-semibold tracking-wide uppercase text-sm sm:text-base animate-slide-up-fade [animation-delay:0ms]">
+                <span className="inline-block text-orange-400 font-semibold tracking-wide uppercase text-sm sm:text-base animate-slide-up-fade [animation-delay:0ms]">
                   {slide.service}
                 </span>
                 <h1 className="text-white text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight animate-slide-up-fade [animation-delay:150ms]">
@@ -106,7 +106,7 @@ export default function HeroCarousel() {
         type="button"
         onClick={goPrev}
         aria-label="Slide anterior"
-        className="absolute left-3 sm:left-6 top-1/2 -translate-y-1/2 z-30 w-10 h-10 flex items-center justify-center rounded-full border border-white/20 bg-black/20 text-white backdrop-blur-sm hover:bg-green-600 transition-colors duration-200"
+        className="absolute left-3 sm:left-6 top-1/2 -translate-y-1/2 z-30 w-10 h-10 flex items-center justify-center rounded-full border border-white/20 bg-black/20 text-white backdrop-blur-sm hover:bg-purple-800 transition-colors duration-200"
       >
         &#8249;
       </button>
@@ -114,7 +114,7 @@ export default function HeroCarousel() {
         type="button"
         onClick={goNext}
         aria-label="Próximo slide"
-        className="absolute right-3 sm:right-6 top-1/2 -translate-y-1/2 z-30 w-10 h-10 flex items-center justify-center rounded-full border border-white/20 bg-black/20 text-white backdrop-blur-sm hover:bg-green-600 transition-colors duration-200"
+        className="absolute right-3 sm:right-6 top-1/2 -translate-y-1/2 z-30 w-10 h-10 flex items-center justify-center rounded-full border border-white/20 bg-black/20 text-white backdrop-blur-sm hover:bg-purple-800 transition-colors duration-200"
       >
         &#8250;
       </button>
@@ -129,7 +129,7 @@ export default function HeroCarousel() {
             aria-label={`Ir para o slide ${slide.service}`}
             aria-current={index === activeIndex}
             className={`h-2.5 rounded-full transition-all duration-300 ${
-              index === activeIndex ? 'w-8 bg-green-500' : 'w-2.5 bg-white/60 hover:bg-white'
+              index === activeIndex ? 'w-8 bg-purple-800' : 'w-2.5 bg-white/60 hover:bg-orange-400'
             }`}
           />
         ))}

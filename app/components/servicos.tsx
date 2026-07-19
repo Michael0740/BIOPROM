@@ -54,10 +54,10 @@ export default function Servicos() {
   const [openId, setOpenId] = useState<number | null>(1);
 
   return (
-    <section id="servicos" className="scroll-mt-24 bg-[radial-gradient(circle_at_top,_#133423_0%,_#07110c_55%,_#030806_100%)] py-16 text-white md:py-24 lg:py-28">
+    <section id="servicos" className="scroll-mt-24 bg-[radial-gradient(circle_at_top,_#3d2878_0%,_#1a0f42_55%,_#0d0620_100%)] py-16 text-white md:py-24 lg:py-28">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="mb-10 max-w-3xl">
-          <span className="mb-3 inline-block rounded-full border border-emerald-400/20 bg-emerald-500/10 px-3 py-1 text-sm font-semibold uppercase tracking-[0.2em] text-emerald-300">
+          <span className="mb-3 inline-block rounded-full border border-purple-400/20 bg-purple-500/10 px-3 py-1 text-sm font-semibold uppercase tracking-[0.2em] text-purple-300">
             Serviços
           </span>
           <h2 className="text-3xl font-bold leading-tight sm:text-4xl">
@@ -98,7 +98,7 @@ export default function Servicos() {
                   <button
                     type="button"
                     onClick={() => setOpenId(isOpen ? null : service.id)}
-                    className="mt-4 inline-flex items-center rounded-full border border-emerald-400/30 bg-emerald-500/10 px-4 py-2 text-sm font-semibold text-emerald-200 transition hover:bg-emerald-500/20"
+                    className="mt-4 inline-flex items-center rounded-full border border-orange-400/30 bg-orange-500/10 px-4 py-2 text-sm font-semibold text-orange-200 transition hover:bg-orange-500/20"
                   >
                     {isOpen ? 'Ocultar detalhes' : 'Mais detalhes'}
                   </button>

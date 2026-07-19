@@ -7,7 +7,7 @@ import { Mail, MapPin, Phone, ArrowUpRight } from 'lucide-react';
 
 export default function Footer() {
   return (
-    <footer className="border-t border-emerald-400/20 bg-[radial-gradient(circle_at_top,_#133423_0%,_#07110c_55%,_#030806_100%)] py-10 text-white sm:py-12">
+    <footer className="border-t border-purple-400/20 bg-[radial-gradient(circle_at_top,_#3d2878_0%,_#1a0f42_55%,_#0d0620_100%)] py-10 text-white sm:py-12">
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="grid gap-8 lg:grid-cols-[1.2fr_0.8fr]">
           <div>
@@ -21,19 +21,19 @@ export default function Footer() {
             <h3 className="text-lg font-semibold text-white">Contacto rápido</h3>
             <ul className="mt-4 space-y-3 text-sm text-gray-300">
               <li className="flex items-center gap-3">
-                <Mail size={16} className="text-emerald-300" />
-                <Link href="mailto:geral.bioprom@gmail.com" className="transition hover:text-emerald-300">
+                <Mail size={16} className="text-orange-300" />
+                <Link href="mailto:geral.bioprom@gmail.com" className="transition hover:text-orange-300">
                   geral.bioprom@gmail.com
                 </Link>
               </li>
               <li className="flex items-center gap-3">
-                <Phone size={16} className="text-emerald-300" />
-                <Link href="tel:+244924000000" className="transition hover:text-emerald-300">
+                <Phone size={16} className="text-orange-300" />
+                <Link href="tel:+244924000000" className="transition hover:text-orange-300">
                  +244 956 239 924 / +244 946 406 605 / +244 927 162 812
                 </Link>
               </li>
               <li className="flex items-center gap-3">
-                <MapPin size={16} className="text-emerald-300" />
+                <MapPin size={16} className="text-orange-300" />
                 <span>Vila Gamek, May Gallery, Loja nº14</span>
               </li>
             </ul>
@@ -50,7 +50,7 @@ export default function Footer() {
             <span>Feito por</span>
             <Link
               href="mailto:albertomichael582@gmail.com"
-              className="inline-flex items-center gap-1 font-semibold text-emerald-300 transition hover:text-emerald-200"
+              className="inline-flex items-center gap-1 font-semibold text-orange-300 transition hover:text-orange-200"
             >
               Alberto Michel
               <ArrowUpRight size={14} />
@@ -59,7 +59,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-4 text-center text-xs text-gray-400 sm:text-left">
-          <a href="mailto:albertomichael582@gmail.com" className="hover:text-emerald-300">
+          <a href="mailto:albertomichael582@gmail.com" className="hover:text-orange-300">
             albertomichael582@gmail.com
           </a>
         </div>
