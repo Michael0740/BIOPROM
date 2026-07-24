@@ -14,7 +14,7 @@ const NAV_ITEMS: NavItem[] = [
   { label: 'Home', href: '/' },
   { label: 'Quem somos', href: '#quem-somos' },
   { label: 'Serviços', href: '/servicos' },
-  { label: 'Contacto', href: '#contacto' },
+  { label: 'Contacto', href: '/#contacto' },
 ];
 
 export default function Menu() {
