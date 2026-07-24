@@ -4,6 +4,9 @@ import Link from 'next/link';
 import { Mail, MapPin, Phone, ArrowUpRight } from 'lucide-react';
 import logo from '@/public/img/BIOPROM LOGO  B.png'
 import Image from 'next/image'
+import { FaLinkedin } from "react-icons/fa";
+import { FaFacebookSquare } from "react-icons/fa";
+import { FaInstagramSquare } from "react-icons/fa";
 
 
 
@@ -43,12 +46,37 @@ export default function Footer() {
         </div>
 
         <div className="mt-8 flex flex-col gap-4 border-t border-white/10 pt-6 sm:flex-row sm:items-center sm:justify-between">
-          <div className="flex flex-wrap gap-4 text-sm text-gray-300">
-           
-         
-          </div>
+          <div className="flex flex-wrap gap-3 text-sm text-gray-300">
+            <Link
+              href="https://www.facebook.com/share/1HD2YwCv12/?mibextid=wwXIfr"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Facebook da BIOPROM"
+              className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-lg text-white transition duration-300 hover:-translate-y-0.5 hover:border-orange-300/70 hover:bg-orange-300/15 hover:text-orange-300"
+            >
+              <FaFacebookSquare />
+            </Link>
 
-         
+            <Link
+              href="https://www.instagram.com/bioprom_angola/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="Instagram da BIOPROM"
+              className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-lg text-white transition duration-300 hover:-translate-y-0.5 hover:border-pink-300/70 hover:bg-pink-300/15 hover:text-pink-300"
+            >
+              <FaInstagramSquare />
+            </Link>
+
+            <Link
+              href="https://www.linkedin.com/company/bioprom-angola/"
+              target="_blank"
+              rel="noreferrer"
+              aria-label="LinkedIn da BIOPROM"
+              className="flex h-11 w-11 items-center justify-center rounded-full border border-white/15 bg-white/10 text-lg text-white transition duration-300 hover:-translate-y-0.5 hover:border-sky-300/70 hover:bg-sky-300/15 hover:text-sky-300"
+            >
+              <FaLinkedin />
+            </Link>
+          </div>
         </div>
 
        
