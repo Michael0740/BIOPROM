@@ -33,8 +33,8 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={16} className="text-orange-300" />
-                <Link href="tel:+244924000000" className="transition hover:text-orange-300">
-                 +244 956 239 924 / +244 946 406 605 / +244 927 162 812
+                <Link href="tel:++244946406605" className="transition hover:text-orange-300">
+                 +244 956 239 924 / <span className='text-orange-300'>+244 946 406 605</span> / +244 927 162 812
                 </Link>
               </li>
               <li className="flex items-center gap-3">
