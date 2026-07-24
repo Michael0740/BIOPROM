@@ -14,7 +14,7 @@ const contactItems = [
     icon: Phone,
     title: 'Telefone',
     value: '+244 956 239 924 / +244 946 406 605 / +244 927 162 812',
-    href: 'tel:+244924000000',
+    href: 'tel:+244 946406605',
   },
   {
     icon: MapPin,
