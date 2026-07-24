@@ -11,9 +11,9 @@ interface NavItem {
 }
 
 const NAV_ITEMS: NavItem[] = [
-  { label: 'Home', href: '#home' },
+  { label: 'Home', href: '/' },
   { label: 'Quem somos', href: '#quem-somos' },
-  { label: 'Serviços', href: '#servicos' },
+  { label: 'Serviços', href: '/servicos' },
   { label: 'Contacto', href: '#contacto' },
 ];
 
@@ -61,8 +61,10 @@ export default function Menu() {
                   <Link
                     href={item.href}
                     onClick={(event) => {
-                      event.preventDefault();
-                      handleNavigation(item.href);
+                      if (item.href.startsWith('#')) {
+                        event.preventDefault();
+                        handleNavigation(item.href);
+                      }
                     }}
                     className="text-gray-700 font-medium hover:text-orange-500 transition-colors duration-200"
                   >
@@ -112,8 +114,10 @@ export default function Menu() {
               <Link
                 href={item.href}
                 onClick={(event) => {
-                  event.preventDefault();
-                  handleNavigation(item.href);
+                  if (item.href.startsWith('#')) {
+                    event.preventDefault();
+                    handleNavigation(item.href);
+                  }
                 }}
                 className="block py-3 text-gray-700 font-medium hover:text-orange-500 transition-colors duration-200 border-b border-gray-100 last:border-0"
               >
