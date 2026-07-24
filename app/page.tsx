@@ -5,6 +5,7 @@ import Servicos from "./components/servicos";
 import Contacto from "./components/contacto";
 import NossoClientes from "./components/clientes";
 import Footer from "./components/footer";
+import WhatsAppButton from "./components/whatsapp";
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
       <Servicos />
       <Contacto />
       <NossoClientes/>
+      <WhatsAppButton />
       <Footer />
     </main>
   );
