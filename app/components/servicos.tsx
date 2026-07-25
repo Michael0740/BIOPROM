@@ -63,9 +63,7 @@ export default function Servicos() {
           <h2 className="text-3xl font-bold leading-tight sm:text-4xl">
             Soluções práticas para proteger e valorizar cada espaço
           </h2>
-          <p className="mt-4 text-base leading-relaxed text-gray-300 sm:text-lg">
-            Cada serviço é pensado para responder com eficiência, segurança e qualidade às necessidades do cliente.
-          </p>
+         
         </div>
 
         <div className="grid gap-6 md:grid-cols-2">
