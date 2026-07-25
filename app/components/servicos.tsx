@@ -2,10 +2,10 @@
 
 import { useState } from 'react';
 import Image, { type StaticImageData } from 'next/image';
-import seccao0 from '@/public/img/man-is-using-thermal-fog-machine-protect-mosquito-spreading.jpg';
-import seccao1 from '@/public/img/Barata.jpeg';
-import seccao2 from '@/public/img/Man_clean.jpg';
-import seccao3 from '@/public/img/grão.jpeg';
+import seccao0 from '@/public/img/service1.jpeg';
+import seccao1 from '@/public/img/service2.jpeg';
+import seccao2 from '@/public/img/service3.jpeg';
+import seccao3 from '@/public/img/service4.jpeg';
 
 interface Service {
   id: number;
@@ -86,7 +86,7 @@ export default function Servicos() {
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent" />
                   <div className="absolute bottom-0 left-0 p-5">
-                    <h3 className="text-xl font-semibold text-white">{service.title}</h3>
+                    <h3 className="text-xl font-semibold uppercase text-white">{service.title}</h3>
                   </div>
                 </div>
 

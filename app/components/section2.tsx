@@ -3,7 +3,7 @@
 import Image from 'next/image';
 import { useEffect, useRef, useState } from 'react';
 import { ShieldCheck, SprayCan, Users, Leaf, type LucideIcon } from 'lucide-react';
-import desinfect from '@/public/img/desinfecting.jpg';
+import desinfect from '@/public/img/service4.jpeg';
 
 interface Feature {
   icon: LucideIcon;
