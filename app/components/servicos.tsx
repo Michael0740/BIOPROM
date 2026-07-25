@@ -14,6 +14,24 @@ interface Service {
   summary: string;
   details: string;
 }
+const environments = [
+  'Escritórios',
+  'Armazéns',
+  'Bancos',
+  'Hotéis',
+  'Condomínios',
+  'Hospitais',
+  'Fábricas',
+  'Lojas',
+  'Residências',
+  'Restaurantes',
+  'Hiper e Supermercados',
+  'Escolas',
+  'Garagens',
+  'Oficinas',
+  'Parques de Estacionamento',
+  'Outros estabelecimentos',
+];
 
 const SERVICES: Service[] = [
   {
@@ -118,6 +136,22 @@ export default function Servicos() {
               </article>
             );
           })}
+        </div>
+
+        <div className="mt-10 rounded-[1.5rem] border border-white/10 bg-white/5 p-5 shadow-[0_20px_60px_-25px_rgba(0,0,0,0.75)] backdrop-blur-xl">
+          <h3 className="mb-4 text-lg font-semibold uppercase tracking-[0.2em] text-orange-200">
+            Executamos intervenções em:
+          </h3>
+          <div className="flex gap-3 overflow-x-auto pb-2 [scrollbar-width:none] [&::-webkit-scrollbar]:hidden">
+            {environments.map((environment) => (
+              <div
+                key={environment}
+                className="flex-shrink-0 rounded-full border border-white/10 bg-white/10 px-4 py-2 text-sm font-medium text-gray-100 shadow-sm"
+              >
+                {environment}
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
