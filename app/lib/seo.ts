@@ -19,8 +19,8 @@ export const SITE_DESCRIPTION =
 
 export const OG_IMAGE = {
   url: '/og-image.png',
-  width: 1492,
-  height: 1054,
+  width: 1200,
+  height: 630,
   alt: 'BIOPROM — Desinfestação, higienização e limpeza profissional em Angola',
 };
 
