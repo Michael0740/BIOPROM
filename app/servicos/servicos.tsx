@@ -97,6 +97,151 @@ const serviceGroups = [
     ],
   },
   {
+    title: 'Desratização',
+    items: [
+      {
+        name: 'O que é desratização?',
+        detail:
+          'A desratização é um conjunto de medidas preventivas e corretivas para eliminar e controlar a presença de ratos em ambientes residenciais, comerciais e industriais, protegendo a saúde e a segurança das pessoas e evitando prejuízos materiais.',
+      },
+      {
+        name: 'Por que contratar?',
+        detail:
+          'Ratos reproduzem-se rapidamente e transmitem doenças como leptospirose, hantavirose e salmonelose. Um serviço profissional garante segurança, redução de contaminação e prevenção de danos materiais.',
+      },
+      {
+        name: 'Como funciona?',
+        detail:
+          'Inclui identificação das espécies, avaliação do grau de infestação, definição de estratégias e aplicação de produtos específicos, além de medidas preventivas como vedação de frestas e armazenamento adequado de alimentos.',
+      },
+      {
+        name: 'Métodos utilizados',
+        detail:
+          'Raticidas, armadilhas, iscas e barreiras físicas são métodos comuns; a escolha depende do ambiente, tipo de infestação e preferências do cliente, sempre orientada por profissionais.',
+      },
+      {
+        name: 'Benefícios',
+        detail:
+          'Eliminação de roedores, prevenção de novas infestações, redução de riscos de doenças, preservação de estruturas e um ambiente mais seguro e saudável.',
+      },
+    ],
+  },
+  {
+    title: 'Pulverização e Atomização',
+    items: [
+      {
+        name: 'O que é?',
+        detail:
+          'Aplicação mecanizada de produtos líquidos transformados em gotículas ou névoa para cobrir superfícies ou plantações de forma uniforme.',
+      },
+      {
+        name: 'Benefícios',
+        detail:
+          'Distribuição uniforme dos produtos, economia de insumos, alcance em áreas difíceis e combate eficiente a pragas e doenças.',
+      },
+      {
+        name: 'Vantagens da pulverização',
+        detail:
+          'Precisão no direcionamento, menor risco de deriva, versatilidade de uso e economia de produto ao aplicar doses adequadas.',
+      },
+      {
+        name: 'Vantagens da atomização',
+        detail:
+          'Longo alcance (10–15m), ideal para copas densas e grandes alturas, alta produtividade e capacidade de espalhar líquidos, pós e pequenos grãos.',
+      },
+      {
+        name: 'Principais alvos biológicos',
+        detail:
+          'Insetos-praga (lagartas, pulgões, mosquitos), doenças fitossanitárias (fungos e bactérias) e plantas daninhas.',
+      },
+    ],
+  },
+  {
+    title: 'Fumigação geral',
+    items: [
+      {
+        name: 'O que é?',
+        detail:
+          'Método de controle que usa produtos químicos em estado gasoso ou vapor dentro de um espaço vedado para eliminar insetos, larvas, ovos e fungos.',
+      },
+      {
+        name: 'Vantagens',
+        detail:
+          'Elimina pragas rapidamente, alcança locais difíceis, protege cargas e produtos sem deixar resíduos líquidos.',
+      },
+      {
+        name: 'Benefícios principais',
+        detail:
+          'Ação completa sobre pragas e patógenos, proteção de bens, conformidade com normas de exportação e ausência de resíduos após ventilação.',
+      },
+      {
+        name: 'Alvos principais',
+        detail:
+          'Insetos e pragas de grãos, pragas da madeira, patógenos do solo e vetores/roedores em cargas, contêineres e porões.',
+      },
+    ],
+  },
+  {
+    title: 'Expurgo em grãos, porões e sacarias',
+    items: [
+      {
+        name: 'O que é?',
+        detail:
+          'Tratamento fitossanitário aplicado a grãos a granel, porões de navio e sacarias para eliminar pragas em todas as fases de desenvolvimento, garantindo conformidade para exportação.',
+      },
+      {
+        name: 'Vantagens',
+        detail:
+          'Ação profunda em ovos, larvas e adultos; preservação da qualidade e valor comercial; cumprimento de normas e proteção do estoque.',
+      },
+      {
+        name: 'Benefícios principais',
+        detail:
+          'Eficácia completa entre os grãos, proteção de cereais e sementes, redução de perdas e segurança regulatória para exportação.',
+      },
+      {
+        name: 'Alvos principais',
+        detail:
+          'Insetos primários e secundários, ácaros, carunchos e outras pragas que atacam grãos e produtos ensacados.',
+      },
+    ],
+  },
+  {
+    title: 'Jardinagem e Paisagismo',
+    items: [
+      {
+        name: 'O que são?',
+        detail:
+          'Serviços que incluem planejamento estético e funcional de áreas verdes, escolha e plantio de espécies, instalação de rega e manutenção contínua.',
+      },
+      {
+        name: 'O que faz o paisagismo',
+        detail:
+          'Criação de projetos, organização do espaço e estudo do clima e solo para garantir o desenvolvimento saudável das plantas.',
+      },
+      {
+        name: 'O que faz a jardinagem',
+        detail:
+          'Corte e poda, limpeza, adubação, rega, controle de pragas e manutenção diária para conservar áreas verdes.',
+      },
+    ],
+  },
+  {
+    title: 'Limpeza e Higienização',
+    items: [
+      {
+        name: 'O que inclui?',
+        detail:
+          'Desinfecção de superfícies, lavagem de pavimentos, higienização de instalações, limpeza de sanitários, remoção de poeira e aplicação de produtos contra bactérias e vírus.',
+      },
+      {
+        name: 'Serviços detalhados',
+        detail:
+          'Limpeza de superfícies de trabalho, casas de banho, pavimentos e áreas comuns; recolha de resíduos; lavagem de pisos; higienização profunda de cozinhas e vidros.',
+      },
+    ],
+  },
+  {
     title: 'Serviço profissional de limpeza',
     items: [
       {
