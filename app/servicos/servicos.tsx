@@ -8,7 +8,6 @@ import {
   CheckCircle2,
   ChevronDown,
   ChevronUp,
-  ShieldCheck,
   Sparkles,
   ScanLine,
   Leaf,
@@ -19,6 +18,13 @@ import img1 from '@/public/img/limparG.jpeg';
 import img2 from '@/public/img/service2.jpeg';
 import img3 from '@/public/img/service3.jpeg';
 import img4 from '@/public/img/service4.jpeg';
+import work1 from '@/public/img/Desratization.jpeg'
+import work2 from '@/public/img/work1.jpeg'
+import work3 from '@/public/img/work2.jpg'
+import work4 from '@/public/img/work3.jpeg'
+import work5 from '@/public/img/limparG.jpeg'
+import work6 from '@/public/img/limpezatotal.jpeg'
+import work7 from '@/public/img/work7.jpeg'
 
 const servicePillars = [
   {
@@ -73,6 +79,7 @@ const environments = [
 const serviceGroups = [
   {
     title: 'Serviço profissional de desinfestação',
+    image: work4,
     items: [
       {
         name: 'Pulverização e fumigação',
@@ -98,6 +105,7 @@ const serviceGroups = [
   },
   {
     title: 'Desratização',
+    image: work1,
     items: [
       {
         name: 'O que é desratização?',
@@ -128,6 +136,7 @@ const serviceGroups = [
   },
   {
     title: 'Pulverização e Atomização',
+    image: img3,
     items: [
       {
         name: 'O que é?',
@@ -158,6 +167,7 @@ const serviceGroups = [
   },
   {
     title: 'Fumigação geral',
+    image: work7,
     items: [
       {
         name: 'O que é?',
@@ -183,6 +193,7 @@ const serviceGroups = [
   },
   {
     title: 'Expurgo em grãos, porões e sacarias',
+    image: work3,
     items: [
       {
         name: 'O que é?',
@@ -208,6 +219,7 @@ const serviceGroups = [
   },
   {
     title: 'Jardinagem e Paisagismo',
+    image: work2,
     items: [
       {
         name: 'O que são?',
@@ -228,6 +240,7 @@ const serviceGroups = [
   },
   {
     title: 'Limpeza e Higienização',
+    image: work5,
     items: [
       {
         name: 'O que inclui?',
@@ -437,6 +450,15 @@ export default function ServicoPage() {
 
                   {isOpen && (
                     <div className="border-t border-white/10 px-5 py-4">
+                      {group.image && (
+                        <div className="mb-4 overflow-hidden rounded-[1.2rem] border border-white/10">
+                          <Image
+                            src={group.image}
+                            alt={group.title}
+                            className="h-48 w-full object-cover"
+                          />
+                        </div>
+                      )}
                       <div className="grid gap-3">
                         {group.items.map((item) => (
                           <div
