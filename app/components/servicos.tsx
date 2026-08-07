@@ -44,7 +44,7 @@ const SERVICES: Service[] = [
   },
   {
     id: 2,
-    title: 'Desbaratização e Desratização',
+    title: ' Desratização',
     image: seccao1,
     summary: 'Estratégias de combate a baratas, ratos e outras infestações com abordagem segura.',
     details:
