@@ -2,10 +2,10 @@
 
 import { useState } from 'react';
 import Image, { type StaticImageData } from 'next/image';
-import seccao0 from '@/public/img/service1.jpeg';
+import seccao0 from '@/public/img/work1.jpeg';
 import seccao1 from '@/public/img/brat.jpeg';
 import seccao2 from '@/public/img/service3.jpeg';
-import seccao3 from '@/public/img/service4.jpeg';
+import seccao3 from '@/public/img/work2.jpg';
 
 interface Service {
   id: number;
