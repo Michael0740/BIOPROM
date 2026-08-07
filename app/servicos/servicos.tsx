@@ -15,7 +15,7 @@ import {
   Users,
 } from 'lucide-react';
 import desinfecta from '@/public/img/service4.jpeg';
-import img1 from '@/public/img/service1.jpeg';
+import img1 from '@/public/img/limparG.jpeg';
 import img2 from '@/public/img/service2.jpeg';
 import img3 from '@/public/img/service3.jpeg';
 import img4 from '@/public/img/service4.jpeg';
