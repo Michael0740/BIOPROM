@@ -9,12 +9,21 @@ import logo5 from '@/public/img/omatapalo.png';
 import logo6 from '@/public/img/oleme.jpeg';
 import logo7 from '@/public/img/mintras.png';
 import logo8 from '@/public/img/cisp.jpeg';
+import logo9 from '@/public/img/polo.jpeg'
+import logo10 from '@/public/img/RPA.jpeg'
+import logo11 from '@/public/img/atakum.jpeg'
+import logo12 from '@/public/img/attachment_12850329.jpeg'
+import logo13 from '@/public/img/kikolo.jpeg'
+import logo14 from '@/public/img/induve_sa_logo.jpeg'
+import logo15 from '@/public/img/pinguin.png'
 
 const marqueeStyle = {
   animation: 'marquee 24s linear infinite',
 } as const;
 
-const clientes = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8];
+const clientes = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8,logo9
+  , logo10, logo11, logo12, logo13, logo14, logo15
+];
 
 export default function NossoClientes() {
   return (
@@ -32,7 +41,7 @@ export default function NossoClientes() {
       <div className="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
         <div className="rounded-[1.5rem] border border-gray-200 bg-white/80 px-4 py-5 shadow-sm backdrop-blur sm:px-6 sm:py-6">
           <p className="mb-4 text-center text-sm font-semibold uppercase tracking-[0.25em] text-gray-500">
-            Grandes clientes
+            NOSSOS PARCEIROS
           </p>
 
           <div className="overflow-hidden">
