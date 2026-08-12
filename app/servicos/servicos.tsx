@@ -15,7 +15,7 @@ import {
 } from 'lucide-react';
 import desinfecta from '@/public/img/service4.jpeg';
 import img1 from '@/public/img/limparG.jpeg';
-import img2 from '@/public/img/service2.jpeg';
+import img2 from '@/public/img/limpezatotal.jpeg';
 import img3 from '@/public/img/service3.jpeg';
 import img4 from '@/public/img/service4.jpeg';
 import work1 from '@/public/img/Desratization.jpeg'
@@ -110,27 +110,27 @@ const serviceGroups = [
       {
         name: 'O que é desratização?',
         detail:
-          'A desratização é um conjunto de medidas preventivas e corretivas para eliminar e controlar a presença de ratos em ambientes residenciais, comerciais e industriais, protegendo a saúde e a segurança das pessoas e evitando prejuízos materiais.',
+          'A desratização é um serviço essencial para o controle de pragas urbanas, em especial os ratos. Esses roedores são considerados uma das principais pragas que podem afetar a saúde e a segurança das pessoas, além de causar prejuízos materiais. O serviço de desratização consiste em um conjunto de medidas preventivas e corretivas para eliminar e controlar a presença de ratos em ambientes residenciais, comerciais e industriais.',
       },
       {
         name: 'Por que contratar?',
         detail:
-          'Ratos reproduzem-se rapidamente e transmitem doenças como leptospirose, hantavirose e salmonelose. Um serviço profissional garante segurança, redução de contaminação e prevenção de danos materiais.',
+          'Os ratos são animais que se reproduzem rapidamente e podem causar danos significativos em pouco tempo. Além disso, eles são transmissores de diversas doenças, como leptospirose, hantavirose e salmonelose, que representam sérios riscos à saúde humana. Portanto, é fundamental contar com um serviço de desratização profissional para garantir a segurança e o bem-estar de todos que frequentam o ambiente infestado.',
       },
       {
         name: 'Como funciona?',
         detail:
-          'Inclui identificação das espécies, avaliação do grau de infestação, definição de estratégias e aplicação de produtos específicos, além de medidas preventivas como vedação de frestas e armazenamento adequado de alimentos.',
+          'O serviço de desratização envolve a identificação das espécies de ratos presentes no local, a avaliação do grau de infestação, a definição das melhores estratégias de controle e a aplicação de produtos químicos específicos para eliminar os roedores. Além disso, é importante adotar medidas preventivas, como a vedação de frestas e buracos, o armazenamento adequado de alimentos e o descarte correto do lixo, para evitar novas infestações.',
       },
       {
         name: 'Métodos utilizados',
         detail:
-          'Raticidas, armadilhas, iscas e barreiras físicas são métodos comuns; a escolha depende do ambiente, tipo de infestação e preferências do cliente, sempre orientada por profissionais.',
+          'Existem diversos métodos de desratização disponíveis no mercado, como o uso de raticidas, armadilhas, iscas e barreiras físicas. Cada método possui suas vantagens e desvantagens, e a escolha do mais adequado depende das características do ambiente, do tipo de infestação e das preferências do cliente. É importante contar com a orientação de profissionais especializados para garantir a eficácia do serviço e a segurança das pessoas e animais de estimação.',
       },
       {
         name: 'Benefícios',
         detail:
-          'Eliminação de roedores, prevenção de novas infestações, redução de riscos de doenças, preservação de estruturas e um ambiente mais seguro e saudável.',
+          'Os principais benefícios do serviço de desratização incluem a eliminação dos ratos presentes no ambiente, a prevenção de novas infestações, a redução dos riscos de contaminação por doenças transmitidas pelos roedores, a preservação da integridade de estruturas e materiais e a promoção de um ambiente mais seguro e saudável para todos que frequentam o local. Além disso, a desratização contribui para a preservação do meio ambiente, ao evitar o uso indiscriminado de produtos químicos nocivos.',
       },
     ],
   },
@@ -141,27 +141,32 @@ const serviceGroups = [
       {
         name: 'O que é?',
         detail:
-          'Aplicação mecanizada de produtos líquidos transformados em gotículas ou névoa para cobrir superfícies ou plantações de forma uniforme.',
+          'O serviço de pulverização e atomização consiste na aplicação mecanizada de produtos líquidos (como defensivos agrícolas, desinfetantes ou fertilizantes)transformados em pequenas gotículas ou névoa para cobrir superfícies ou plantações de forma uniforme. ',
       },
       {
         name: 'Benefícios',
         detail:
-          'Distribuição uniforme dos produtos, economia de insumos, alcance em áreas difíceis e combate eficiente a pragas e doenças.',
+          'O benefício principal de um serviço de pulverização e atomização é a distribuição uniforme e eficiente de líquidos ou produtos, destacando-se a economia de insumos, o alcance em áreas difíceis e o combate rápido a pragas e doenças.',
+      },
+      {
+        name: 'Vantagens da pulverização e atomização',
+        detail:
+          'As principais vantagens da pulverização e atomização são a alta precisão no direcionamento de produtos, a grande economia de insumos e a alta velocidade para cobrir grandes áreas. Ambas transformam líquidos em pequenas gotas, mas com alcances e focos diferentes. ',
       },
       {
         name: 'Vantagens da pulverização',
         detail:
-          'Precisão no direcionamento, menor risco de deriva, versatilidade de uso e economia de produto ao aplicar doses adequadas.',
+          'Precisão cirúrgica: Ótima para focar em áreas específicas ou plantas menores sem desperdício. Menor risco de deriva: O jato é mais controlado, evitando atingir plantações vizinhas ou áreas sensíveis ao vento. Versatilidade de uso: Permite usar diferentes volumes e tamanhos de gotas para cada tipo de necessidade. Economia de produto: Aplica a medida certa de defensivos ou nutrientes diretamente no alvo  ',
       },
       {
         name: 'Vantagens da atomização',
         detail:
-          'Longo alcance (10–15m), ideal para copas densas e grandes alturas, alta produtividade e capacidade de espalhar líquidos, pós e pequenos grãos.',
+          'Longo alcance: Cria uma névoa fina impulsionada por ar que chega a mais de 10 a 15 metros de distância.• Ideal para grandes alturas e copas densas: Perfeita para árvores grandes (como café e frutas) e galpões altos.• Alta produtividade: Cobre grandes extensões de terreno em pouco tempo.• Versatilidade de materiais: Alguns modelos conseguem espalhar não só líquidos, mas também pós e pequenos grãos. ',
       },
       {
         name: 'Principais alvos biológicos',
         detail:
-          'Insetos-praga (lagartas, pulgões, mosquitos), doenças fitossanitárias (fungos e bactérias) e plantas daninhas.',
+          'Insetos-praga: Lagartas, percevejos, pulgões, cochonilhas e mosquitos que atacam as folhas, frutos ou o ambiente.• Doenças fitossanitárias: Fungos e bactérias causadores de manchas,mofos e podridões nas plantas.• Plantas daninhas: Ervas invasoras que disputam água, luz e nutrientes com a cultura principal. ',
       },
     ],
   },
@@ -172,22 +177,27 @@ const serviceGroups = [
       {
         name: 'O que é?',
         detail:
-          'Método de controle que usa produtos químicos em estado gasoso ou vapor dentro de um espaço vedado para eliminar insetos, larvas, ovos e fungos.',
+          'A fumigação é um método de controle de pragas que usa produtos químicos em estado de gás ou vapor dentro de um espaço totalmente fechado. O processo elimina insetos, larvas,ovos e fungos em locais difíceis de alcançar',
       },
       {
         name: 'Vantagens',
         detail:
-          'Elimina pragas rapidamente, alcança locais difíceis, protege cargas e produtos sem deixar resíduos líquidos.',
+          'A vantagem é que ela elimina totalmente as pragas em pouco tempo, atinge locais difíceis graças ao gás e protege cargas e produtos sem deixar resíduos líquidos.',
       },
       {
         name: 'Benefícios principais',
         detail:
-          'Ação completa sobre pragas e patógenos, proteção de bens, conformidade com normas de exportação e ausência de resíduos após ventilação.',
+          '• Ação completa: o gás chega a todos os cantos e elimina insetos, ovos, fungos e bactérias de uma só vez.• Proteção de bens: evita o estrago de grãos, madeiras, alimentos armazenados e mercadorias em [conteúdos e silos].• Comércio seguro: cumpre as leis de exportação e impede que pragas viajem para outros países ou regiões.• Sem resíduos: o método em gás limpa o local ou produto tratado sem manchar ou deixar restos de veneno após a ventilação.',
       },
       {
         name: 'Alvos principais',
         detail:
-          'Insetos e pragas de grãos, pragas da madeira, patógenos do solo e vetores/roedores em cargas, contêineres e porões.',
+          'O principal alvo a eliminar em uma fumigação são os insetos, larvas e ovos, além de fungos, bactérias e roedores escondidos em cargas, grãos, solos ou estruturas fechadas. ',
+      },
+      {
+        name: 'Alvos principais a combater',
+        detail:
+          'Insetos e pragas de grãos: carunchos, traças e besouros em silos e armazéns.• Pragas da madeira: cupins e brocas em pallets, caixas e móveis de exportação.• Patógenos do solo: nematoides, fungos e ervas daninhas antes do plantio.• Vetores e roedores: ratos e bactérias em contêineres ou porões de navios.',
       },
     ],
   },
@@ -198,22 +208,22 @@ const serviceGroups = [
       {
         name: 'O que é?',
         detail:
-          'Tratamento fitossanitário aplicado a grãos a granel, porões de navio e sacarias para eliminar pragas em todas as fases de desenvolvimento, garantindo conformidade para exportação.',
+          'O expurgo (ou fumigaça o) em grão,porões de navios e sacarias e um tratamento fitossanitario essencial para eliminar pragas em todas as fases de desenvolvimento na massa de grãos a granel, garantindo a conformidade com normas internacionais de exportação. O processo baseia-se na aplicação rigorosa de agentes químicos gasosos dentro de um ambiente totalmente vedado. ',
       },
       {
         name: 'Vantagens',
         detail:
-          'Ação profunda em ovos, larvas e adultos; preservação da qualidade e valor comercial; cumprimento de normas e proteção do estoque.',
+          'A principal vantagem de um serviço de expurgo (ou fumigação) é a eliminação total de pragas em produtos armazenados, destacando-se por:• Ação profunda em todas as fases de vida dos insetos (ovos, larvas, pupas e adultos).• Preservação da qualidade, peso e valor comercial de grãos e mercadorias.• Garantia de cumprimento de normas rígidas para transporte e exportação.• Fases biológicas completas: O gás atinge ovos, larvas, pupas e insetos adultos simultaneamente.',
       },
       {
-        name: 'Benefícios principais',
+        name: 'Benefícios principais do expurgo',
         detail:
-          'Eficácia completa entre os grãos, proteção de cereais e sementes, redução de perdas e segurança regulatória para exportação.',
+          'Eficácia Completa: O gás utilizado atinge até os menores espaços e fendas entre os grãos, combatendo infestações que métodos comuns não alcançam.• Fases biológicas completas: O gás atinge ovos, larvas, pupas e insetos adultos simultaneamente.• A proteção Grãos e cereais: Milho, soja, arroz, trigo e feijão guardados em silos ou armazéns.• A proteção Sementes e tabaco: Produtos agrícolas sensíveis que exigem controle rigoroso de sanidade.• A proteção Sementes e tabaco: Produtos agrícolas sensíveis que exigem controle rigoroso de sanidade.• Proteção do Estoque: Evita a perda de massa dos alimentos e impede o desperdício de cereais, sementes ou produtos ensacados.• Segurança Regulatória: Assegura que cargas comerciais e industriais estejam livres de contaminações, cumprindo exigências legais para o mercado nacional e internacional.',
       },
       {
-        name: 'Alvos principais',
+        name: 'Quais os principais alvos a combater no serviço de expurgo insetos e pragas alvo',
         detail:
-          'Insetos primários e secundários, ácaros, carunchos e outras pragas que atacam grãos e produtos ensacados.',
+          '• Insetos primários: Atacam grãos sadios e intactos (como o gorgulho do milho e do trigo).• Insetos secundários: Alimentam-se de grãos já quebrados, mofados ou de resíduos de cereais.• Ácaros e carunchos: Prejudicam a qualidade de sementes, farelos e grãos ensacados ou a granel.• Fases biológicas completas: O gás atinge ovos, larvas, pupas e insetos adultos simultaneamente.',
       },
     ],
   },
@@ -224,17 +234,17 @@ const serviceGroups = [
       {
         name: 'O que são?',
         detail:
-          'Serviços que incluem planejamento estético e funcional de áreas verdes, escolha e plantio de espécies, instalação de rega e manutenção contínua.',
+          'Os serviços de jardinagem e paisagismo englobam a criaça o de projetos esteticos e funcionais para a reas verdes, abrangendo etapas como planejamento de espaços,escolha e plantio de espe cies vegetais adequadas ao clima local, ale m da instalaça o de sistemas de rega e manutença o contí nua cuidam de áreas verdes e criam espaços bonitos. Eles incluem o planejamento do espaço, o plantio de flores e a manutenção diária. ',
       },
       {
         name: 'O que faz o paisagismo',
         detail:
-          'Criação de projetos, organização do espaço e estudo do clima e solo para garantir o desenvolvimento saudável das plantas.',
+          'Criação de projetos: desenha o visual do jardim e escolhe as melhores plantas para o local.• Uso do espaço: organiza caminhos, áreas de descanso e plantas para deixar o ambiente harmonioso.• Estudo do clima: analisa a terra, o sol e a água necessários para as plantas viverem bem. ',
       },
       {
         name: 'O que faz a jardinagem',
         detail:
-          'Corte e poda, limpeza, adubação, rega, controle de pragas e manutenção diária para conservar áreas verdes.',
+          'Corte e poda: aparar a relva e cortar galhos secos ou doentes.• Limpeza: retirar folhas secas, lixo e manter o terreno limpo.• Tratamento: colocar adubo, regar e cuidar para que pragas não matem as plantas.• Limpeza e adubação: retirar folhas secas, aplicar fertilizantes e tratar a terra.• Controle de pragas: proteger as plantas contra insetos e doenças.',
       },
     ],
   },
@@ -243,14 +253,14 @@ const serviceGroups = [
     image: work5,
     items: [
       {
-        name: 'O que inclui?',
+        name: 'O que é?',
         detail:
-          'Desinfecção de superfícies, lavagem de pavimentos, higienização de instalações, limpeza de sanitários, remoção de poeira e aplicação de produtos contra bactérias e vírus.',
+          'O serviço de limpeza e higienizaça o geral inclui a desinfeção de superfícies, a lavagem de pavimentos, higienizaça o de instalaço es ,limpeza sanita rias, remoça o de poeira e sujidades, lavagem de pisos, desinfecça o contra bacte rias e ví rus.',
       },
       {
-        name: 'Serviços detalhados',
+        name: 'O que o serviço inclui',
         detail:
-          'Limpeza de superfícies de trabalho, casas de banho, pavimentos e áreas comuns; recolha de resíduos; lavagem de pisos; higienização profunda de cozinhas e vidros.',
+          'Superfícies de trabalho: limpeza de secretárias, mesas, telefones, teclados e puxadores com produtos desinfetantes.• Casas de banho: lavagem de sanitários, lavatórios, espelhos e reposição de consumíveis como papel e sabonete.• Pavimentos e áreas comuns: aspiração e lavagem de pisos, limpeza de salas de reuniões, receção e copa.• Resíduos: recolha de lixo e substituição de sacos nos cestos.• Limpeza de superfícies: lavagem de pisos, limpeza de paredes, móveis e portas.• Higienização e desinfecção: aplicação de produtos para eliminar germes, ácaros e bactérias em locais de uso comum.• Áreas específicas: limpeza profunda de cozinhas, banheiros, vidros e recolha de lixo.',
       },
     ],
   },
@@ -283,6 +293,14 @@ const serviceGroups = [
 
 export default function ServicoPage() {
   const [openService, setOpenService] = useState<number | null>(0);
+  const [selectedCategory, setSelectedCategory] = useState('Todos');
+
+  const categories = ['Todos', ...new Set(serviceGroups.map((group) => group.title))];
+
+  const filteredGroups =
+    selectedCategory === 'Todos'
+      ? serviceGroups
+      : serviceGroups.filter((group) => group.title === selectedCategory);
 
   return (
     <section className="min-h-screen bg-[radial-gradient(circle_at_top,_#2a1355_0%,_#15072e_45%,_#080312_100%)] px-4 pb-16 pt-24 text-white sm:px-6 lg:px-8">
@@ -419,11 +437,37 @@ export default function ServicoPage() {
             <h2 className="mt-2 text-2xl font-bold text-white sm:text-3xl">
               Explore os detalhes de cada solução
             </h2>
+
+            <div className="mt-5 flex flex-wrap gap-2.5">
+              {categories.map((category) => {
+                const isActive = selectedCategory === category;
+
+                return (
+                  <button
+                    key={category}
+                    type="button"
+                    aria-pressed={isActive}
+                    onClick={() => {
+                      setSelectedCategory(category);
+                      setOpenService(null);
+                    }}
+                    className={`min-w-fit rounded-full border px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.18em] transition-all duration-200 ${
+                      isActive
+                        ? 'border-orange-300 bg-orange-300 text-slate-950 shadow-[0_0_25px_rgba(251,146,60,0.4)]'
+                        : 'border-white/15 bg-white/5 text-gray-200 hover:border-orange-300/70 hover:bg-orange-300/10 hover:text-white'
+                    }`}
+                  >
+                    {category}
+                  </button>
+                );
+              })}
+            </div>
           </div>
 
           <div className="grid gap-4">
-            {serviceGroups.map((group, index) => {
-              const isOpen = openService === index;
+            {filteredGroups.map((group) => {
+              const originalIndex = serviceGroups.findIndex((item) => item.title === group.title);
+              const isOpen = openService === originalIndex;
 
               return (
                 <article
@@ -432,7 +476,7 @@ export default function ServicoPage() {
                 >
                   <button
                     type="button"
-                    onClick={() => setOpenService(isOpen ? null : index)}
+                    onClick={() => setOpenService(isOpen ? null : originalIndex)}
                     className="flex w-full items-center justify-between gap-3 px-5 py-4 text-left"
                   >
                     <div>
@@ -460,15 +504,29 @@ export default function ServicoPage() {
                         </div>
                       )}
                       <div className="grid gap-3">
-                        {group.items.map((item) => (
-                          <div
-                            key={item.name}
-                            className="rounded-2xl border border-white/10 bg-white/5 p-4"
-                          >
-                            <h4 className="text-base font-semibold text-orange-200">{item.name}</h4>
-                            <p className="mt-2 text-sm leading-relaxed text-gray-200">{item.detail}</p>
-                          </div>
-                        ))}
+                        {group.items.map((item) => {
+                          const detailItems = item.detail
+                            .split('•')
+                            .map((part) => part.trim())
+                            .filter(Boolean);
+
+                          return (
+                            <div
+                              key={item.name}
+                              className="rounded-2xl border border-white/10 bg-white/5 p-4"
+                            >
+                              <h4 className="text-base font-semibold text-orange-200">{item.name}</h4>
+                              <ul className="mt-2 space-y-2 text-sm leading-relaxed text-gray-200">
+                                {detailItems.map((line, index) => (
+                                  <li key={`${item.name}-${index}`} className="flex items-start gap-2">
+                                    <span className="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-orange-300" />
+                                    <span>{line}</span>
+                                  </li>
+                                ))}
+                              </ul>
+                            </div>
+                          );
+                        })}
                       </div>
                     </div>
                   )}
