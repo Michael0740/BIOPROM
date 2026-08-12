@@ -2,9 +2,9 @@
 
 import Image, { type StaticImageData } from 'next/image';
 import { useCallback, useEffect, useState } from 'react';
-import slide1 from '@/public/img/Limpeza1.jpg';
-import slide2 from '@/public/img/Man_clean.jpg';
-import slide3 from '@/public/img/clean2.jpg';
+import slide1 from '@/public/img/work3.jpeg';
+import slide2 from '@/public/img/limparG.jpeg';
+import slide3 from '@/public/img/limpezatotal.jpeg';
 
 interface Slide {
   image: StaticImageData;
