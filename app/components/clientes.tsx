@@ -12,12 +12,12 @@ import logo8 from '@/public/img/cisp.jpeg';
 import logo9 from '@/public/img/polo.jpeg'
 import logo10 from '@/public/img/RPA.jpeg'
 import logo11 from '@/public/img/atakum.jpeg'
-import logo12 from '@/public/img/attachment_12850329.jpeg'
+
 import logo13 from '@/public/img/kikolo.jpeg'
 import logo14 from '@/public/img/induve_sa_logo.jpeg'
 import logo15 from '@/public/img/pinguin.png'
 import logo16 from '@/public/img/progas.png'
-import logo17 from '@/public/img/american_hot_dog.png'
+
 import logo18 from '@/public/img/american_hot_dog.png'
 import logo19 from '@/public/img/brands_partner_group.png'
 import logo20 from '@/public/img/camarufi.png'
@@ -29,7 +29,7 @@ const marqueeStyle = {
 } as const;
 
 const clientes = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8,logo9
-  , logo10, logo11, logo12, logo13, logo14, logo15,logo16,logo17,logo18
+  , logo10, logo11, logo13, logo14, logo15,logo16,logo18
   ,logo19, logo20,logo21,logo22
 ];
 

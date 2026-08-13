@@ -41,20 +41,20 @@ export default function Contacto() {
             </p>
           </div>
 
-          <div className="grid gap-6 md:grid-cols-3">
+          <div className="grid gap-6 grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-stretch">
             {contactItems.map(({ icon: Icon, title, value, href }) => (
               <Link
                 key={title}
                 href={href}
                 target={href.startsWith('http') ? '_blank' : undefined}
                 rel={href.startsWith('http') ? 'noreferrer' : undefined}
-                className="rounded-2xl border border-gray-200 bg-gray-50 p-6 transition duration-300 hover:-translate-y-1 hover:border-orange-300 hover:shadow-md"
+                className="w-full flex h-full flex-col rounded-2xl border border-gray-200 bg-gray-50 p-6 transition duration-300 hover:-translate-y-1 hover:border-orange-300 hover:shadow-md"
               >
                 <div className="mb-4 flex h-12 w-12 items-center justify-center rounded-full bg-orange-100 text-orange-600">
-                  <Icon size={20} strokeWidth={2.2} />
+                  <Icon className="h-5 w-5 md:h-6 md:w-6" strokeWidth={2.2} />
                 </div>
-                <h3 className="mb-2 text-lg font-semibold text-gray-900">{title}</h3>
-                <p className="text-sm leading-relaxed text-gray-600">{value}</p>
+                <h3 className="mb-2 text-lg md:text-xl font-semibold text-gray-900">{title}</h3>
+                <p className="text-sm md:text-base leading-relaxed text-gray-600 whitespace-pre-wrap break-words">{value}</p>
               </Link>
             ))}
           </div>
