@@ -157,7 +157,7 @@ const serviceGroups = [
       {
         name: 'Quais são as Vantagens da pulverização',
         detail:
-          'Precisão cirúrgica: Ótima para focar em áreas específicas ou plantas menores sem desperdício. Menor risco de deriva: O jato é mais controlado, evitando atingir plantações vizinhas ou áreas sensíveis ao vento. Versatilidade de uso: Permite usar diferentes volumes e tamanhos de gotas para cada tipo de necessidade. Economia de produto: Aplica a medida certa de defensivos ou nutrientes diretamente no alvo  ',
+          'Precisão cirúrgica: Ótima para focar em áreas específicas ou plantas menores sem desperdício. • Menor risco de deriva: O jato é mais controlado, evitando atingir plantações vizinhas ou áreas sensíveis ao vento. •Versatilidade de uso: Permite usar diferentes volumes e tamanhos de gotas para cada tipo de necessidade. •Economia de produto: Aplica a medida certa de defensivos ou nutrientes diretamente no alvo  ',
       },
       {
         name: 'Quais são as Vantagens da atomização',
