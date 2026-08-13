@@ -11,7 +11,7 @@ import logo7 from '@/public/img/mintras.png';
 import logo8 from '@/public/img/cisp.jpeg';
 import logo9 from '@/public/img/polo.jpeg'
 import logo10 from '@/public/img/RPA.jpeg'
-import logo11 from '@/public/img/atakum.jpeg'
+import logo11 from '@/public/img/atakum~2.jpg'
 
 import logo13 from '@/public/img/kikolo.jpeg'
 import logo14 from '@/public/img/induve_sa_logo.jpeg'
