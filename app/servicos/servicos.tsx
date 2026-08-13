@@ -114,22 +114,22 @@ const serviceGroups = [
           'A desratização é um serviço essencial para o controle de pragas urbanas, em especial os ratos. Esses roedores são considerados uma das principais pragas que podem afetar a saúde e a segurança das pessoas, além de causar prejuízos materiais. O serviço de desratização consiste em um conjunto de medidas preventivas e corretivas para eliminar e controlar a presença de ratos em ambientes residenciais, comerciais e industriais.',
       },
       {
-        name: 'Por que contratar?',
+        name: 'Por que contratar o serviço?',
         detail:
           'Os ratos são animais que se reproduzem rapidamente e podem causar danos significativos em pouco tempo. Além disso, eles são transmissores de diversas doenças, como leptospirose, hantavirose e salmonelose, que representam sérios riscos à saúde humana. Portanto, é fundamental contar com um serviço de desratização profissional para garantir a segurança e o bem-estar de todos que frequentam o ambiente infestado.',
       },
       {
-        name: 'Como funciona?',
+        name: 'Como funciona o serviço?',
         detail:
           'O serviço de desratização envolve a identificação das espécies de ratos presentes no local, a avaliação do grau de infestação, a definição das melhores estratégias de controle e a aplicação de produtos químicos específicos para eliminar os roedores. Além disso, é importante adotar medidas preventivas, como a vedação de frestas e buracos, o armazenamento adequado de alimentos e o descarte correto do lixo, para evitar novas infestações.',
       },
       {
-        name: 'Métodos utilizados',
+        name: 'Quais são os métodos utilizados no serviço?',
         detail:
           'Existem diversos métodos de desratização disponíveis no mercado, como o uso de raticidas, armadilhas, iscas e barreiras físicas. Cada método possui suas vantagens e desvantagens, e a escolha do mais adequado depende das características do ambiente, do tipo de infestação e das preferências do cliente. É importante contar com a orientação de profissionais especializados para garantir a eficácia do serviço e a segurança das pessoas e animais de estimação.',
       },
       {
-        name: 'Benefícios',
+        name: 'Quais são os Benefícios',
         detail:
           'Os principais benefícios do serviço de desratização incluem a eliminação dos ratos presentes no ambiente, a prevenção de novas infestações, a redução dos riscos de contaminação por doenças transmitidas pelos roedores, a preservação da integridade de estruturas e materiais e a promoção de um ambiente mais seguro e saudável para todos que frequentam o local. Além disso, a desratização contribui para a preservação do meio ambiente, ao evitar o uso indiscriminado de produtos químicos nocivos.',
       },
@@ -140,27 +140,27 @@ const serviceGroups = [
     image: img3,
     items: [
       {
-        name: 'O que é?',
+        name: 'O que é um serviço de pulverização e atomização?',
         detail:
           'O serviço de pulverização e atomização consiste na aplicação mecanizada de produtos líquidos (como defensivos agrícolas, desinfetantes ou fertilizantes)transformados em pequenas gotículas ou névoa para cobrir superfícies ou plantações de forma uniforme. ',
       },
       {
-        name: 'Benefícios',
+        name: 'Quais são os Benefícios de uma pulverização e uma atomização',
         detail:
           'O benefício principal de um serviço de pulverização e atomização é a distribuição uniforme e eficiente de líquidos ou produtos, destacando-se a economia de insumos, o alcance em áreas difíceis e o combate rápido a pragas e doenças.',
       },
       {
-        name: 'Vantagens da pulverização e atomização',
+        name: 'Quais são as Vantagens da pulverização e atomização',
         detail:
           'As principais vantagens da pulverização e atomização são a alta precisão no direcionamento de produtos, a grande economia de insumos e a alta velocidade para cobrir grandes áreas. Ambas transformam líquidos em pequenas gotas, mas com alcances e focos diferentes. ',
       },
       {
-        name: 'Vantagens da pulverização',
+        name: 'Quais são as Vantagens da pulverização',
         detail:
           'Precisão cirúrgica: Ótima para focar em áreas específicas ou plantas menores sem desperdício. Menor risco de deriva: O jato é mais controlado, evitando atingir plantações vizinhas ou áreas sensíveis ao vento. Versatilidade de uso: Permite usar diferentes volumes e tamanhos de gotas para cada tipo de necessidade. Economia de produto: Aplica a medida certa de defensivos ou nutrientes diretamente no alvo  ',
       },
       {
-        name: 'Vantagens da atomização',
+        name: 'Quais são as Vantagens da atomização',
         detail:
           'Longo alcance: Cria uma névoa fina impulsionada por ar que chega a mais de 10 a 15 metros de distância.• Ideal para grandes alturas e copas densas: Perfeita para árvores grandes (como café e frutas) e galpões altos.• Alta produtividade: Cobre grandes extensões de terreno em pouco tempo.• Versatilidade de materiais: Alguns modelos conseguem espalhar não só líquidos, mas também pós e pequenos grãos. ',
       },
@@ -181,17 +181,17 @@ const serviceGroups = [
           'A fumigação é um método de controle de pragas que usa produtos químicos em estado de gás ou vapor dentro de um espaço totalmente fechado. O processo elimina insetos, larvas,ovos e fungos em locais difíceis de alcançar',
       },
       {
-        name: 'Vantagens',
+        name: 'Quais as Vantagens do serviço',
         detail:
           'A vantagem é que ela elimina totalmente as pragas em pouco tempo, atinge locais difíceis graças ao gás e protege cargas e produtos sem deixar resíduos líquidos.',
       },
       {
-        name: 'Benefícios principais',
+        name: 'Quais os Benefícios principais',
         detail:
           '• Ação completa: o gás chega a todos os cantos e elimina insetos, ovos, fungos e bactérias de uma só vez.• Proteção de bens: evita o estrago de grãos, madeiras, alimentos armazenados e mercadorias em [conteúdos e silos].• Comércio seguro: cumpre as leis de exportação e impede que pragas viajem para outros países ou regiões.• Sem resíduos: o método em gás limpa o local ou produto tratado sem manchar ou deixar restos de veneno após a ventilação.',
       },
       {
-        name: 'Alvos principais',
+        name: 'Quais os Alvos principais',
         detail:
           'O principal alvo a eliminar em uma fumigação são os insetos, larvas e ovos, além de fungos, bactérias e roedores escondidos em cargas, grãos, solos ou estruturas fechadas. ',
       },
@@ -212,12 +212,12 @@ const serviceGroups = [
           'O expurgo (ou fumigaça o) em grão,porões de navios e sacarias e um tratamento fitossanitario essencial para eliminar pragas em todas as fases de desenvolvimento na massa de grãos a granel, garantindo a conformidade com normas internacionais de exportação. O processo baseia-se na aplicação rigorosa de agentes químicos gasosos dentro de um ambiente totalmente vedado. ',
       },
       {
-        name: 'Vantagens',
+        name: 'Quais as Vantagens deste serviço',
         detail:
           'A principal vantagem de um serviço de expurgo (ou fumigação) é a eliminação total de pragas em produtos armazenados, destacando-se por:• Ação profunda em todas as fases de vida dos insetos (ovos, larvas, pupas e adultos).• Preservação da qualidade, peso e valor comercial de grãos e mercadorias.• Garantia de cumprimento de normas rígidas para transporte e exportação.• Fases biológicas completas: O gás atinge ovos, larvas, pupas e insetos adultos simultaneamente.',
       },
       {
-        name: 'Benefícios principais do expurgo',
+        name: 'Quais os Benefícios principais do expurgo',
         detail:
           'Eficácia Completa: O gás utilizado atinge até os menores espaços e fendas entre os grãos, combatendo infestações que métodos comuns não alcançam.• Fases biológicas completas: O gás atinge ovos, larvas, pupas e insetos adultos simultaneamente.• A proteção Grãos e cereais: Milho, soja, arroz, trigo e feijão guardados em silos ou armazéns.• A proteção Sementes e tabaco: Produtos agrícolas sensíveis que exigem controle rigoroso de sanidade.• A proteção Sementes e tabaco: Produtos agrícolas sensíveis que exigem controle rigoroso de sanidade.• Proteção do Estoque: Evita a perda de massa dos alimentos e impede o desperdício de cereais, sementes ou produtos ensacados.• Segurança Regulatória: Assegura que cargas comerciais e industriais estejam livres de contaminações, cumprindo exigências legais para o mercado nacional e internacional.',
       },
