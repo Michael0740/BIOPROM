@@ -17,8 +17,8 @@ import {
 import desinfecta from '@/public/img/service4.jpeg';
 import img1 from '@/public/img/limparG.jpeg';
 import img2 from '@/public/img/limpezatotal.jpeg';
-import img3 from '@/public/img/Atomização .jpg';
-import img4 from '@/public/img/service4.jpeg';
+import img3 from '@/public/img/materiais.jpeg';
+import img4 from '@/public/img/equipa_bio.jpeg';
 import work1 from '@/public/img/servico_desratização.jpg';
 import work2 from '@/public/img/work1.jpg'
 import work3 from '@/public/img/work2.jpg'
@@ -26,6 +26,7 @@ import work4 from '@/public/img/servico_geral.png'
 import work5 from '@/public/img/Limpezas_service.jpg'
 import work6 from '@/public/img/limpezatotal.jpeg'
 import work7 from '@/public/img/work7.jpg'
+import work8 from '@/public/img/Atomização .jpg'
 
 const servicePillars = [
   {
@@ -137,7 +138,7 @@ const serviceGroups = [
   },
   {
     title: 'Pulverização e Atomização',
-    image: img3,
+    image: work8,
     items: [
       {
         name: 'O que é um serviço de pulverização e atomização?',
@@ -235,7 +236,7 @@ const serviceGroups = [
       {
         name: 'O que são?',
         detail:
-          'Os serviços de jardinagem e paisagismo englobam a criaça o de projetos esteticos e funcionais para a reas verdes, abrangendo etapas como planejamento de espaços,escolha e plantio de espe cies vegetais adequadas ao clima local, ale m da instalaça o de sistemas de rega e manutença o contí nua cuidam de áreas verdes e criam espaços bonitos. Eles incluem o planejamento do espaço, o plantio de flores e a manutenção diária. ',
+          'Os serviços de jardinagem e paisagismo englobam a criação de projetos estéticos e funcionais para áreas verdes, abrangendo etapas como planejamento de espaços,escolha e plantio de especies vegetais adequadas ao clima local, além da instalação de sistemas de rega e manutença o contínua cuidam de áreas verdes e criam espaços bonitos. Eles incluem o planejamento do espaço, o plantio de flores e a manutenção diária. ',
       },
       {
         name: 'O que faz o paisagismo',
@@ -256,7 +257,7 @@ const serviceGroups = [
       {
         name: 'O que é?',
         detail:
-          'O serviço de limpeza e higienização geral inclui a desinfeção de superfícies, a lavagem de pavimentos, higienização de instalações ,limpeza sanita rias, remoção de poeira e sujidades, lavagem de pisos, desinfecção contra bactérias e vírus.',
+          'O serviço de limpeza e higienização geral inclui a desinfeção de superfícies, a lavagem de pavimentos, higienização de instalações ,limpeza sanitárias, remoção de poeira e sujidades, lavagem de pisos, desinfecção contra bactérias e vírus.',
       },
       {
         name: 'O que o serviço inclui',

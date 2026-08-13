@@ -46,9 +46,9 @@ const SERVICES: Service[] = [
     id: 2,
     title: ' Desratização',
     image: seccao1,
-    summary: 'Estratégias de combate a baratas, ratos e outras infestações com abordagem segura.',
+    summary: 'Estratégias de combate à ratos e outras infestações com abordagem segura.',
     details:
-      'Este serviço combina medidas preventivas e corretivas para eliminar infestação de roedores e insetos, reduzindo riscos para a saúde, a estrutura e a higiene dos espaços.',
+      'Este serviço combina medidas preventivas e corretivas para eliminar infestação de roedores, reduzindo riscos para a saúde, a estrutura e a higiene dos espaços.',
   },
   {
     id: 3,
@@ -64,7 +64,7 @@ const SERVICES: Service[] = [
     image: seccao2,
     summary: 'Serviços de limpeza profunda e organização para espaços residenciais e comerciais.',
     details:
-      'A limpeza geral assegura ambientes mais saudáveis, com um tratamento completo de superfícies, áreas comuns e zonas de maior circulação.',
+      'A limpeza geral assegura ambientes mais limpos e saudáveis, com um tratamento completo de superfícies, áreas comuns e zonas de maior circulação.',
   },
 ];
 
