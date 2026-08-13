@@ -1,8 +1,9 @@
 "use client";
 
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
+import { useRouter, useSearchParams } from 'next/navigation';
 import {
   ArrowRight,
   CheckCircle2,
@@ -16,15 +17,15 @@ import {
 import desinfecta from '@/public/img/service4.jpeg';
 import img1 from '@/public/img/limparG.jpeg';
 import img2 from '@/public/img/limpezatotal.jpeg';
-import img3 from '@/public/img/service3.jpeg';
+import img3 from '@/public/img/Atomização .jpg';
 import img4 from '@/public/img/service4.jpeg';
-import work1 from '@/public/img/Desratization.jpeg'
-import work2 from '@/public/img/work1.jpeg'
+import work1 from '@/public/img/servico_desratização.jpg';
+import work2 from '@/public/img/work1.jpg'
 import work3 from '@/public/img/work2.jpg'
-import work4 from '@/public/img/work3.jpeg'
-import work5 from '@/public/img/limparG.jpeg'
+import work4 from '@/public/img/servico_geral.png'
+import work5 from '@/public/img/Limpezas_service.jpg'
 import work6 from '@/public/img/limpezatotal.jpeg'
-import work7 from '@/public/img/work7.jpeg'
+import work7 from '@/public/img/work7.jpg'
 
 const servicePillars = [
   {
@@ -78,7 +79,7 @@ const environments = [
 
 const serviceGroups = [
   {
-    title: 'Serviço profissional de desinfestação',
+    title: 'Serviço profissional',
     image: work4,
     items: [
       {
@@ -202,7 +203,7 @@ const serviceGroups = [
     ],
   },
   {
-    title: 'Expurgo em grãos, porões e sacarias',
+    title: 'Expurgo em grãos, porões de navios, silos e sacarias',
     image: work3,
     items: [
       {
@@ -255,7 +256,7 @@ const serviceGroups = [
       {
         name: 'O que é?',
         detail:
-          'O serviço de limpeza e higienizaça o geral inclui a desinfeção de superfícies, a lavagem de pavimentos, higienizaça o de instalaço es ,limpeza sanita rias, remoça o de poeira e sujidades, lavagem de pisos, desinfecça o contra bacte rias e ví rus.',
+          'O serviço de limpeza e higienização geral inclui a desinfeção de superfícies, a lavagem de pavimentos, higienização de instalações ,limpeza sanita rias, remoção de poeira e sujidades, lavagem de pisos, desinfecção contra bactérias e vírus.',
       },
       {
         name: 'O que o serviço inclui',
@@ -292,10 +293,24 @@ const serviceGroups = [
 ];
 
 export default function ServicoPage() {
+  const router = useRouter();
+  const searchParams = useSearchParams();
   const [openService, setOpenService] = useState<number | null>(0);
-  const [selectedCategory, setSelectedCategory] = useState('Todos');
 
   const categories = ['Todos', ...new Set(serviceGroups.map((group) => group.title))];
+  const categoryFromUrl = searchParams.get('categoria');
+  const [selectedCategory, setSelectedCategory] = useState(
+    categoryFromUrl && categories.includes(categoryFromUrl) ? categoryFromUrl : 'Todos'
+  );
+
+  useEffect(() => {
+    if (categoryFromUrl && categories.includes(categoryFromUrl)) {
+      setSelectedCategory(categoryFromUrl);
+      return;
+    }
+
+    setSelectedCategory('Todos');
+  }, [categoryFromUrl, categories]);
 
   const filteredGroups =
     selectedCategory === 'Todos'
@@ -448,8 +463,13 @@ export default function ServicoPage() {
                     type="button"
                     aria-pressed={isActive}
                     onClick={() => {
-                      setSelectedCategory(category);
+                      const nextCategory = category === 'Todos' ? 'Todos' : category;
+
+                      setSelectedCategory(nextCategory);
                       setOpenService(null);
+
+                      const query = nextCategory === 'Todos' ? '' : `?categoria=${encodeURIComponent(nextCategory)}`;
+                      router.push(`/servicos${query}`);
                     }}
                     className={`min-w-fit rounded-full border px-4 py-2 text-[11px] font-semibold uppercase tracking-[0.18em] transition-all duration-200 ${
                       isActive

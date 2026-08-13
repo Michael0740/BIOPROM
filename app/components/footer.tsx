@@ -18,28 +18,53 @@ export default function Footer() {
           <div>
             <Image src={logo} alt='logo' width={100} height={100} className="h-20 w-auto"></Image>
             <p className="mt-3 max-w-xl text-sm leading-relaxed text-gray-300 sm:text-base">
-              Soluções profissionais em higiene, desinfeção e controlo de pragas para ambientes mais seguros e acolhedores.
+              Soluções profissionais em limpeza e higienização, desinfestação, desratização, jardinagem e paisagismo, saneamento básico  para ambientes mais seguros e acolhedores.
             </p>
+
           </div>
 
           <div className="rounded-[1.25rem] border border-white/10 bg-white/10 p-6 shadow-[0_20px_60px_-25px_rgba(0,0,0,0.75)] backdrop-blur-xl">
             <h3 className="text-lg font-semibold text-white">Contacto rápido</h3>
-            <ul className="mt-4 space-y-3 text-sm text-gray-300">
-              <li className="flex items-center gap-3">
-                <Mail size={16} className="text-orange-300" />
-                <Link href="mailto:geral.bioprom@gmail.com" className="transition hover:text-orange-300">
-                  geral.bioprom@gmail.com
-                </Link>
+
+            <ul className="mt-5 space-y-4 text-sm text-gray-300">
+
+              <li className="flex items-start gap-3">
+                <Mail size={16} className="mt-1 shrink-0 text-orange-300" />
+                <div className="flex flex-col gap-1">
+                  <Link href="mailto:geral.bioprom@gmail.com" className="transition hover:text-orange-300">
+                    geral.bioprom@gmail.com
+                  </Link>
+                  <Link href="mailto:Dp.administrativo@biopromcontrol.com" className="transition hover:text-orange-300">
+                    Dp.administrativo@biopromcontrol.com
+                  </Link>
+                  <Link href="mailto:Dp.tecnico@biopromcontrol.com" className="transition hover:text-orange-300">
+                    Dp.tecnico@biopromcontrol.com
+                  </Link>
+                </div>
               </li>
-              <li className="flex items-center gap-3">
-                <Phone size={16} className="text-orange-300" />
-                <Link href="tel:+244946406605" className="transition hover:text-orange-300">
-                 +244 956 239 924 / <span className='text-orange-300'>+244 946 406 605</span> / +244 927 162 812
-                </Link>
+
+              <li className="flex items-start gap-3">
+                <Phone size={16} className="mt-1 shrink-0 text-orange-300" />
+                <div className="flex flex-col gap-1">
+                  <Link href="tel:+244956239924" className="transition hover:text-orange-300">
+                    +244 956 239 924
+                  </Link>
+                  <Link href="tel:+244946406605" className="transition hover:text-orange-300">
+                    <span className="text-orange-300">+244 946 406 605</span>
+                  </Link>
+                  <Link href="tel:+244927162812" className="transition hover:text-orange-300">
+                    +244 927 162 812
+                  </Link>
+                </div>
               </li>
-              <li className="flex items-center gap-3">
-                <MapPin size={16} className="text-orange-300" />
-                <span>Vila Gamek, May Gallery, Loja nº14</span>
+
+              <li className="flex items-start gap-3">
+                <MapPin size={16} className="mt-1 shrink-0 text-orange-300" />
+                <div className="flex flex-col gap-1">
+                  <span>Vila Gamek | Município de Belas</span>
+                  <span>Rua Pedro de Castro Van-Dúnem "LOY"</span>
+                  <span>Condomínio ECO-Campo, casa nº 1</span>
+                </div>
               </li>
             </ul>
           </div>

@@ -1,6 +1,7 @@
 'use client';
 
 import Image, { type StaticImageData } from 'next/image';
+import Link from 'next/link';
 import { useCallback, useEffect, useState } from 'react';
 import slide1 from '@/public/img/work3.jpeg';
 import slide2 from '@/public/img/limparG.jpeg';
@@ -11,26 +12,30 @@ interface Slide {
   service: string;
   title: string;
   description: string;
+  category: string;
 }
 
 const SLIDES: Slide[] = [
   {
     image: slide1,
-    service: 'Desinfestação',
+    service: 'Desinfestação Geral',
     title: 'Proteção total contra pragas',
     description: 'Eliminamos insetos e pragas com métodos seguros e eficazes para a sua casa ou negócio.',
+    category: 'Serviço profissional de desinfestação',
   },
   {
     image: slide2,
     service: 'Limpeza de Escritórios',
     title: 'Ambientes limpos, equipas produtivas',
     description: 'Higienização completa de espaços corporativos, garantindo conforto e saúde no trabalho.',
+    category: 'Serviço profissional de limpeza',
   },
   {
     image: slide3,
     service: 'Higienização Especializada',
     title: 'Qualidade que se vê e se sente',
     description: 'Serviços de limpeza profunda com produtos certificados e equipa especializada.',
+    category: 'Limpeza e Higienização',
   },
 ];
 
@@ -95,6 +100,16 @@ export default function HeroCarousel() {
                 <p className="text-gray-100 text-base sm:text-lg animate-slide-up-fade [animation-delay:300ms]">
                   {slide.description}
                 </p>
+
+                <div className="animate-slide-up-fade [animation-delay:450ms]">
+                  <Link
+                    href={`/servicos?categoria=${encodeURIComponent(slide.category)}`}
+                    className="inline-flex items-center gap-2 rounded-full bg-orange-400 px-5 py-3 text-sm font-semibold text-slate-950 transition hover:bg-orange-300"
+                  >
+                    Saiba mais
+                    <span aria-hidden="true">→</span>
+                  </Link>
+                </div>
               </div>
             )}
           </div>

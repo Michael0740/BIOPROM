@@ -2,9 +2,9 @@
 
 import { useState } from 'react';
 import Image, { type StaticImageData } from 'next/image';
-import seccao0 from '@/public/img/work1.jpeg';
-import seccao1 from '@/public/img/Desratization.jpeg';
-import seccao2 from '@/public/img/limpezatotal.jpeg';
+import seccao0 from '@/public/img/work7.jpg';
+import seccao1 from '@/public/img/servico_desratização.jpg';
+import seccao2 from '@/public/img/Limpezas_service.jpg';
 import seccao3 from '@/public/img/work2.jpg';
 
 interface Service {
