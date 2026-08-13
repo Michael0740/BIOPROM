@@ -7,7 +7,7 @@ const contactItems = [
   {
     icon: Mail,
     title: 'Email',
-    value: 'geral.bioprom@gmail.com',
+    value: 'geral.bioprom@gmail.com , Dp.administrativo@biopromcontrol.com,  Dp.tecnico@biopromcontrol.com',
     href: 'mailto:geral.bioprom@gmail.com',
   },
   {
@@ -19,7 +19,7 @@ const contactItems = [
   {
     icon: MapPin,
     title: 'Localização',
-    value: 'Sede AV. Pedro de Castro Van-Dúnem Loy, Vila Gamek, May Gallery, Loja nº14',
+    value: 'Vila Gamek | Município de Belas, Rua Pedro de Castro Van-Dúnem "LOY", Condomínio ECO-Campo, casa nº 1',
     href: 'https://maps.google.com/?q=Vila+Gamek+May+Gallery',
   },
 ];
