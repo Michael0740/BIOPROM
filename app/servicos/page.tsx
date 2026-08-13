@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Suspense } from 'react';
 import ServicePage from '@/app/servicos/servicos';
 import Menu from '../components/menu';
 import Footer from '../components/footer';
@@ -26,7 +27,9 @@ const service = () => {
         dangerouslySetInnerHTML={{ __html: jsonLdScript(breadcrumb) }}
       />
       <Menu />
-      <ServicePage />
+      <Suspense fallback={<div className="min-h-screen" />}>
+        <ServicePage />
+      </Suspense>
         <WhatsAppButton />
       <Footer />
     </>
