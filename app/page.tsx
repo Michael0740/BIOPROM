@@ -6,6 +6,8 @@ import Contacto from "./components/contacto";
 import NossoClientes from "./components/clientes";
 import Footer from "./components/footer";
 import WhatsAppButton from "./components/whatsapp";
+import VideosServico from '@/app/components/videos_servico';
+
 
 const Homepage = () => {
   return (
@@ -14,6 +16,7 @@ const Homepage = () => {
       <Hero_page />
       <Section2 />
       <Servicos />
+      <VideosServico />
       <Contacto />
       <NossoClientes/>
       <WhatsAppButton />

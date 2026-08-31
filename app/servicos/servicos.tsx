@@ -78,7 +78,7 @@ const environments = [
   'Outros estabelecimentos',
 ];
 
-const serviceGroups = [
+export const serviceGroups = [
   {
     title: 'Serviço profissional',
     image: work4,
